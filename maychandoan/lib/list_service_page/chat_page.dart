@@ -12,7 +12,7 @@ class ChatPage extends StatefulWidget {
 class _ChatPageState extends State<ChatPage> {
   TextEditingController _userInput = TextEditingController();
   static const apiKey =
-      'AIzaSyBJRSVoiCBXbHAs85jBzRtBI3ubiG03g3s'; // Replace with your actual API keysd
+      ''; // Replace with your actual API keysd
   final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
   final List<Message> _messages = [];
   bool _isResponding = false;
