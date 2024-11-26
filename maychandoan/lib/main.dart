@@ -7,12 +7,12 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: FirebaseOptions(
-          apiKey: "AIzaSyA-nygNJcschiZzbiGZqh2XRkndSFyeuzU",
-          appId: "484558138052:android:60f057c4217b1b28f27791",
-          messagingSenderId: "484558138052",
-          projectId: "test-b0897"));
+          apiKey: "", // Replace with your actual API 
+          appId: "", // Replace with your actual app ID
+          messagingSenderId: "",// Replace with your actual ID
+          projectId: ""));
   FirebaseDatabase.instance.databaseURL =
-      'https://test-b0897-default-rtdb.asia-southeast1.firebasedatabase.app';
+      ''; // Replace with your actual URL
   runApp(MyApp());
 }
 
